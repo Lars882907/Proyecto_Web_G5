@@ -1,6 +1,4 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 nav{
     width: 100%;
@@ -20,6 +18,21 @@ a{
     margin: 12px;
 
 }
+button{
+    background-color:#4f51e7;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    color:#fff;
+    font-size: 14px;
+    padding: 10px 32px;
+    position:relative;
+    left:73%;
+    bottom: 27px;
+}
+button:hover{
+    background-color:black;
+}
 /* jose fondo modal  */
 .modal{
     display: none;
@@ -32,7 +45,7 @@ a{
     height: 100%;
     overflow: auto;
     background-color: rgb(0,0,0);
-    background-color: rgb(197, 197, 197);
+    background-color: rgb(204, 220, 223);
 }
 /*Contenido modal */
 
@@ -75,6 +88,7 @@ nav img{
  
     
 }
+
 .segundoTitulos a{
     float: left;
     text-align: center;
@@ -202,14 +216,14 @@ section{
     line-height: 1.5em;
   }
 
-
   body {
     padding:0;
     margin:0;
+    font-family: Arial, Helvetica, sans-serif;
 
 background-size:fit;
   overflow:hidden;
-}
+  }
 /* .box{
     width:300px;
     height:auto;
